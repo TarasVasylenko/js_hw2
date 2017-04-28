@@ -1,8 +1,8 @@
 var x = prompt('Введите первое число','');
 var y = prompt('Введите второе число','');
-for (var i= +x; i<= +y; i++){
-	for(var j=x; j<=i; j++){
+for (var i= +x; i <= +y; i++){
+	for(var j= +x; j <= i; j++){
 		if (i%j == 0) break;
 	}
-	if(j==i) console.log(i);   
+	console.log(i);  
 }
